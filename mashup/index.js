@@ -1,1 +1,1 @@
-console.log("Hello this is mashup js");
+console.log('Hello this is mashup js');
