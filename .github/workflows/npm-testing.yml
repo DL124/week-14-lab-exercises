@@ -21,3 +21,4 @@ jobs:
       - run: cd insecure && npm run build --if-present
       - run: cd insecure && npm audit fix --force
       - run: cd mashup && npm install --save-dev eslint && npm run lint
+      - run: cd unittesting && npm install jest && npm run jest
